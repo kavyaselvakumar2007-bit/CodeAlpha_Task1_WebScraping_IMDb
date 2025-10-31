@@ -27,11 +27,11 @@ To extract the content, I used Python’s `requests` and BeautifulSoup libraries
 
 ### 📂 Output_example
 
-                                          Movie    Year  IMDb Rating
+                                                    Movie             Year      IMDb Rating
 
-0 The Shawshank Redemption 1994 9.2
-1 The Godfather 1972 9.2
-2 The Dark Knight 2008 9.0
+                                       0 The Shawshank Redemption     1994          9.2
+                                       1 The Godfather                1972          9.2
+                                       2 The Dark Knight              2008          9.0
 
 ---
 
@@ -44,6 +44,7 @@ To extract the content, I used Python’s `requests` and BeautifulSoup libraries
 
 ### 👩‍💻 Author
 
-_Kavyadharshini S_  
+_Kavya Dharshini S_  
 CodeAlpha Intern – Web Scraping  
 GitHub: https://github.com/github-username
+
