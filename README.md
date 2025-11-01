@@ -1,49 +1,64 @@
 # 🎬 IMDb Web Scraping – CodeAlpha Internship Task 1
 
-## 🔍 Overview
+📌 Overview
 
-This project web scrapes _Top 25 Movies_ rated by IMDb.
-To extract the content, I used Python’s `requests` and BeautifulSoup libraries. Additionally, to export the content into a file, I employed the Python library pandas to store it in.csv format.
+The project uses Python together with Requests and BeautifulSoup to retrieve IMDb's Top 25 Movies which get saved to a CSV file.
 
----
 
-### ⚙ Steps Performed
 
-1. The first step was to fetch the data by browsing the website using `requests`  
-   2. The next step was to parse the html to get the details BeautifulSoup 3. Using the pandas library, I stored the retrieved data into a list  
-   4. The list was used to create a .csv file as an example from the pandas data frame
+⚙ Technologies Used
 
----
+Python
 
-### 🧰 Tech stack
+BeautifulSoup (for HTML parsing)
 
-- _Language_: Python
-- _Libraries_: Requests, BeautifulSoup4, Pandas
-- _Tools Used_:
-  - Version Control: GitHub
-  - IDE: Visual Studio Code / IDLE
+Requests (for fetching webpage content)
 
----
+CSV module (for saving data)
+
+
+
+🧩 Features
+
+The system retrieves current IMDb movie information from the internet.
+
+The system retrieves Rank information along with Title and Year and Rating values.
+
+The system generates a organized CSV file to store the output data.
+
+The system uses request headers to prevent 403 errors from occurring.
+
+
 
 ### 📂 Output_example
 
                                        Rank        Movie                 Year   IMDb Rating
 
-                                        1   The Shawshank Redemption    1994     9.2
-                                        2   The Godfather               1972     9.2
-                                        3   The Dark Knight             2008     9.0
+                                        1    The Shawshank Redemption    1994     9.2
+                                        2    The Godfather               1972     9.2
+                                        3    The Dark Knight             2008     9.0
 
----
 
-### 📈 Learning Outcome
 
-- Better understanding of _web scraping_
-- Hands-on experience in _HTML parsing_
-- Implemented _data cleaning and storage in CSV_
-- Utilized GitHub for project collaboration and real-world project development
+
+📁 Output File
+
+The imdb_top_movies.csv file contains all extracted movie information.
+
+
+
+🧠 Learning Outcome
+
+I learned to scrape websites through BeautifulSoup for web data extraction.
+
+I acquired practical experience with data retrieval and file management operations.
+
+I learned to use GitHub for version control and to present my projects.
+
 
 ### 👩‍💻 Author
 
 _Kavyadharshini S_  
 CodeAlpha Intern – Web Scraping  
-GitHub: https://github.com/github-username
+GitHub: https://github.com/kavyaselvakumar2007-bit/CodeAlpha_Task1_WebScraping_IMDb.git
+
