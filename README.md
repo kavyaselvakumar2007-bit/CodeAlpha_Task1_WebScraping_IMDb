@@ -58,7 +58,8 @@ I learned to use GitHub for version control and to present my projects.
 
 ### 👩‍💻 Author
 
-_Kavyadharshini S_  
+_Kavya Dharshini S_  
 CodeAlpha Intern – Web Scraping  
 GitHub: https://github.com/kavyaselvakumar2007-bit/CodeAlpha_Task1_WebScraping_IMDb.git
+
 
